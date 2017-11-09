@@ -64,7 +64,8 @@ def run(songs)
       exit_jukebox
       break
     else
-      puts "Please enter a command: #{input}"
+      puts "Invalid input."
+      exit_jukebox
     end
   end
 end
